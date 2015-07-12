@@ -24,4 +24,4 @@ end
 
 puts encrypt("2", "aa c")
 
-# print_msg(50) #important line, do not remove.
+ print_msg(50) #important line, do not remove.
