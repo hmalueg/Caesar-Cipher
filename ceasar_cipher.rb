@@ -18,10 +18,10 @@ def encrypt(key,phrase)
 		temp_word = Array.new #placeholder array for each character
 			word.each do |letter| #iterates through each word
 				number = $letter_to_num[letter] #basically what you did
-				number += key					#basically what you did
+				number += key			#basically what you did
 				temp_hash = $letter_to_num.invert #basically what you did
-				letter = temp_hash[number]		#basically what you did
-				temp_word.push(letter)			#basically what you did
+				letter = temp_hash[number]	#basically what you did
+				temp_word.push(letter)		#basically what you did
 			end
 		word = temp_word.join('') #saves the manipulated back as word
 		temp_phrase.push(word) #adds the new word to the array of words
