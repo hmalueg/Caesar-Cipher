@@ -32,4 +32,4 @@ end
 
 puts encrypt("3", "ab cd") #this will work for any lowercase string, with spaces.
 
- print_msg(50) #important line, do not remove.
+ # print_msg(50) #important line, do not remove.
